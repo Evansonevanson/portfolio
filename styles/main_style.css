@@ -648,7 +648,9 @@ form button {
   /**
    * Main-container
 */
-
+  .info :last-child {
+    color: var(--white-2);
+  }
   .main-container {
     width: 100%;
     height: auto;
