@@ -626,12 +626,15 @@ form textarea {
 }
 
 form button {
+  border: none;
+  outline: none;
   display: flex;
   flex-direction: row;
   justify-content: start;
   align-items: center;
   align-self: flex-end;
   gap: 0.5rem;
+  color: var(--smoky-black);
 }
 
 @media (max-width: 1250px) {
