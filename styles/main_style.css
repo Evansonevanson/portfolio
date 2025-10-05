@@ -746,3 +746,14 @@ form button {
     background: transparent; /* kill solid fill */
   }
 }
+
+.construction {
+  width: 100%;
+  height: 100%;
+  display: grid;
+  place-items: center;
+}
+.cons-image {
+  width: 80%;
+  height: auto;
+}
